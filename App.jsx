@@ -7,7 +7,7 @@ export default function App() {
   const [points, setPoints] = useState(0);
   const [loading, setLoading] = useState(false);
 
-  const API = "https://https://mi-backend.onrender.com"; // 🔴 CAMBIA ESTO
+  const API = "https://mi-backend.onrender.com"; // 🔴 CAMBIA ESTO
 
   useEffect(() => {
     const init = async () => {
